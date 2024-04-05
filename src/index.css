@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Ethereal";
+    font-weight: normal;
+    src: url("fonts/Ethereal_ExtraLight.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Ethereal";
+    font-weight: bold;
+    src: url("fonts/Ethereal_ExtraBold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Cabinet Grotesk";
+    font-weight: normal;
+    src: url("fonts/CabinetGrotesk_Light.ttf") format("truetype");
+  }
+
+  html {
+    font-family: "Cabinet Grotesk", sans-serif;
+    text-transform: uppercase;
+  }
+
+  button {
+    letter-spacing: 0.1rem;
+  }
+
+  body {
+    margin: 0;
+  }
+}
