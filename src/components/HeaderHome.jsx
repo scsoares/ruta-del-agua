@@ -1,12 +1,15 @@
 import photos from "../services/photos/photos.js";
 import { Link } from "react-router-dom";
 import { SidebarMenu } from "./SidebarMenu.jsx";
+import { useState } from "react";
 
 export const HeaderHome = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
+      {isOpen && <SidebarMenu />}
       <header>
-        <SidebarMenu />
         <div className="flex flex-col bg-[url('../../public/images/header-image.png')] bg-cover w-screen h-[450px] lg:h-[1000px]">
           <div
             id="navbar"
@@ -37,13 +40,16 @@ export const HeaderHome = () => {
             </ul>
 
             <div
-              onClick="showNav()"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}
+              type="button"
               className="w-[50px] lg:w-[238px] lg:hidden"
             >
               <img
                 className="object-cover"
                 src={`/images/${photos[9].fileName}`}
-                alt="City Hall Logo"
+                alt="Menu icon"
               ></img>
             </div>
           </div>

@@ -12,7 +12,18 @@ export default {
 
       'lg': '1439px',
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        slide: {
+          '0%': { left: '-100%' },
+          '100%': { left: '0' },
+        },
+        reveal: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '100%' }
+        }
+      },
+    },
   },
   plugins: [],
 }
