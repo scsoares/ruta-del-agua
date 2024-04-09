@@ -10,12 +10,12 @@ export const HeaderHome = () => {
     <>
       {isOpen && <SidebarMenu />}
       <header>
-        <div className="flex flex-col bg-[url('../../public/images/header-image.png')] bg-cover w-screen h-[450px] lg:h-[1000px]">
+        <div className="relative flex flex-col bg-[#EDEDED] bg-[url('../../public/images/header-image-3.png')] bg-cover w-screen h-[650px] lg:h-[1000px]">
           <div
             id="navbar"
-            className="flex justify-between lg:justify-around items-center py-[20px] px-[20px] text-white"
+            className="flex justify-between lg:justify-around items-center py-[20px] px-[20px] text-[#EDEDED]"
           >
-            <div className="w-[120px] lg:w-[238px] lg:h-[90px]">
+            <div className="w-[120px] lg:w-[200px]">
               <img
                 className="object-cover"
                 src={`/images/${photos[11].fileName}`}
@@ -23,18 +23,18 @@ export const HeaderHome = () => {
               ></img>
             </div>
 
-            <span className="hidden font-[Ethereal] lg:flex lg:text-2xl capitalize">
+            <span className="hidden font-[Ergisa] lg:flex lg:text-2xl capitalize">
               Ruta Del Agua De Telde
             </span>
 
-            <ul className="hidden gap-20 text-[16px] lg:flex">
-              <li>
+            <ul className="hidden gap-12 text-[16px] tracking-widest lg:flex">
+              <li className="hover:underline hover:underline-offset-8 hover:decoration-wavy">
                 <Link to="/about-project">Sobre</Link>
               </li>
-              <li>
+              <li className="hover:underline hover:underline-offset-8 hover:decoration-wavy">
                 <Link to="/photos">Fotos</Link>
               </li>
-              <li>
+              <li className="hover:underline hover:underline-offset-8 hover:decoration-wavy">
                 <Link to="/about-route">Historia</Link>
               </li>
             </ul>
@@ -54,11 +54,11 @@ export const HeaderHome = () => {
             </div>
           </div>
 
-          <span className="flex flex-wrap text-white font-[Ethereal] mt-16 lg:mt-40 text-center text-5xl lg:text-[160px]">
+          <span className="flex flex-wrap text-[#EDEDED] font-[Ergisa] mt-16 lg:mt-40 text-center lg:leading-tight text-[2.3rem] mx-10 lg:mx-40 lg:text-[130px] animate-[reveal_2s_ease-in-out]">
             Ruta del agua de Telde
           </span>
 
-          <button className="flex hover:bg-white hover:text-black text-[12px] lg:text-[24px] text-white border border-white py-2 px-8 mt-24 rounded-full self-center">
+          <button className="flex hover:bg-[#EDEDED] hover:text-black text-[12px] lg:text-[20px] text-[#EDEDED] border border-[#EDEDED] py-2 px-8 mt-48 rounded-full self-center animate-[reveal_3s_ease-in-out]">
             MÁS INFORMACCIÓN
           </button>
         </div>

@@ -27,7 +27,11 @@ let photos = [
         fileName: "../../../public/images/ayuntamiento-logo-negro.png"
     }, {
         fileName: "../../../public/images/logo-ies-el-rincon.png"
-    },
+    }, {
+        fileName: "../../../public/images/cifp.png"
+    }, {
+        fileName: "../../../public/images/logo-ruta-del-agua.png"
+    }
 ]
 
 export default photos;
