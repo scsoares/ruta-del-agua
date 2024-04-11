@@ -11,7 +11,9 @@ export default {
 
       'md': '767px',
 
-      'lg': '1439px',
+      'lg': '1023px',
+
+      'xl': '1439px'
     },
     extend: {
       keyframes: {
