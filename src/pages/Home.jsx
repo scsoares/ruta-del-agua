@@ -1,3 +1,4 @@
+import { AboutProject } from "../components/AboutProject";
 import { HeaderHome } from "../components/HeaderHome";
 import { ProjectCenters } from "../components/ProjectCenters";
 
@@ -6,6 +7,7 @@ export const Home = () => {
     <>
       <HeaderHome />
       <ProjectCenters />
+      <AboutProject />
     </>
   );
 };

@@ -15,12 +15,12 @@ export const ProjectCenters = () => {
   return (
     <>
       <section>
-        <div className="flex flex-col gap-20 items-center justify-center h-[1000px] lg:h-[800px]">
+        <div className="flex flex-col gap-20 items-center justify-center h-[1000px] lg:h-[800px] xl:h-[700px] border-b-2 border-[#D9D9D9]">
           <span className="font-[Ergisa] text-center text-3xl max-w-96 lg:max-w-full normal-case">
             Un proyecto de los centros
           </span>
 
-          <div className="flex flex-col md:flex-row md:flex-wrap gap-20">
+          <div className="flex flex-col items-center justify-center md:flex-row md:flex-wrap gap-20">
             <div
               ref={ref1}
               className={`transition-opacity ease-in-out duration-1000 ${
@@ -29,7 +29,7 @@ export const ProjectCenters = () => {
             >
               <div
                 href=""
-                className="w-[200px] lg:w-[300px] hover:w-[350px] hover:transition-all hover:ease-in-out hover:transition-500"
+                className="w-[200px] lg:w-[250px] hover:w-[260px] lg:hover:w-[300px] hover:transition-all hover:ease-in-out hover:duration-1000"
               >
                 <img
                   className="object-cover"
@@ -47,7 +47,7 @@ export const ProjectCenters = () => {
             >
               <div
                 href=""
-                className="w-[200px] lg:w-[300px] hover:w-[350px] hover:transition-all hover:ease-in-out hover:transition-500"
+                className="w-[200px] lg:w-[300px] hover:w-[250px] xl:hover:w-[250px] hover:transition-all hover:ease-in-out hover:duration-1000"
               >
                 <img
                   className="object-cover"
@@ -63,7 +63,7 @@ export const ProjectCenters = () => {
                 isVisible3 ? "opacity-100" : "opacity-0"
               }`}
             >
-              <div className="w-[200px] lg:w-[300px] hover:w-[350px] hover:transition-all hover:ease-in-out hover:transition-500">
+              <div className="w-[150px] lg:w-[150px] hover:w-[200px] hover:transition-all hover:ease-in-out hover:duration-1000">
                 <img
                   className="object-cover"
                   src={`/images/${photos[15].fileName}`}
