@@ -29,7 +29,7 @@ export const ProjectCenters = () => {
             >
               <div
                 href=""
-                className="w-[200px] lg:w-[250px] hover:w-[260px] lg:hover:w-[300px] hover:transition-all hover:ease-in-out hover:duration-1000"
+                className="w-[200px] lg:w-[250px] hover:w-[260px] lg:hover:w-[300px] hover:transition-all hover:ease-in-out hover:duration-1000 cursor-pointer"
               >
                 <img
                   className="object-cover"
@@ -47,7 +47,7 @@ export const ProjectCenters = () => {
             >
               <div
                 href=""
-                className="w-[200px] lg:w-[300px] hover:w-[250px] xl:hover:w-[250px] hover:transition-all hover:ease-in-out hover:duration-1000"
+                className="w-[200px] lg:w-[300px] hover:w-[250px] xl:hover:w-[350px] hover:transition-all hover:ease-in-out hover:duration-1000 cursor-pointer"
               >
                 <img
                   className="object-cover"
@@ -63,7 +63,7 @@ export const ProjectCenters = () => {
                 isVisible3 ? "opacity-100" : "opacity-0"
               }`}
             >
-              <div className="w-[150px] lg:w-[150px] hover:w-[200px] hover:transition-all hover:ease-in-out hover:duration-1000">
+              <div className="w-[150px] lg:w-[150px] hover:w-[200px] hover:transition-all hover:ease-in-out hover:duration-1000 cursor-pointer">
                 <img
                   className="object-cover"
                   src={`/images/${photos[15].fileName}`}

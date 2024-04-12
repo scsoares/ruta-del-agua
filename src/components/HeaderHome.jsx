@@ -58,7 +58,7 @@ export const HeaderHome = () => {
             Ruta del agua de Telde
           </span>
 
-          <button className="flex transition ease-in-out delay-400 hover:bg-[#EDEDED] hover:text-black text-[12px] xl:text-[20px] text-[#EDEDED] border border-[#EDEDED] py-2 px-8 mt-48 lg:mt-24 rounded-full self-center animate-[reveal_3s_ease-in-out]">
+          <button className="flex transition ease-in-out delay-400 hover:bg-[#EDEDED] hover:text-black text-[12px] xl:text-[16px] text-[#EDEDED] border border-[#EDEDED] py-2 px-8 mt-48 lg:mt-24 rounded-full self-center animate-[reveal_3s_ease-in-out]">
             MÁS INFORMACCIÓN
           </button>
         </div>
