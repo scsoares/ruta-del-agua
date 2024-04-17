@@ -33,6 +33,8 @@ let photos = [
         fileName: "../../../public/images/logo-ruta-del-agua.png"
     }, {
         fileName: "../../../public/images/photos-bg.png" //17
+    }, {
+        fileName: "../../../public/images/arrow.png" //18
     }
 ]
 
