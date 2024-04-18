@@ -7,13 +7,13 @@ export default {
   theme: {
 
     screens: {
-      'sm': '576px',
+      'sm': '600px', //breakpoint for large smartphones and small tablets (extracted from W3 Schools)
 
-      'md': '767px',
+      'md': '768px', //breakpoint for medium to large tablets (extracted from W3 Schools)
 
-      'lg': '1023px',
+      'lg': '992px', // breakpoint for large devices (extracted from W3 Schools)
 
-      'xl': '1439px'
+      'xl': '1200px' // breakpoint for extra large devices (extracted from W3 Schools)
     },
     extend: {
       keyframes: {

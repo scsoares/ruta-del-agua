@@ -3,6 +3,7 @@ import { HeaderHome } from "../components/HeaderHome";
 import { PhotosHome } from "../components/PhotosHome";
 import { ProjectCenters } from "../components/ProjectCenters";
 import { RouteHome } from "../components/RouteHome";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <AboutProject />
       <PhotosHome />
       <RouteHome />
+      <Footer />
     </>
   );
 };

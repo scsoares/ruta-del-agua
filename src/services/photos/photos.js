@@ -35,6 +35,8 @@ let photos = [
         fileName: "../../../public/images/photos-bg.png" //17
     }, {
         fileName: "../../../public/images/arrow.png" //18
+    }, {
+        fileName: "../../../public/images/canal-agua.png" //19
     }
 ]
 

@@ -14,12 +14,12 @@ export const AboutProject = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="h-auto flex flex-col lg:flex-row xl:flex-row px-10 py-36 gap-20 xl:px-72 xl:gap-52 justify-center xl:justify-around items-center border-b-2 border-[#D9D9D9]">
+          <div className="h-auto flex flex-col lg:flex-row xl:flex-row px-10 py-36 gap-20 lg:px-20 xl:px-72 xl:gap-52 justify-center xl:justify-around items-center border-b-2 border-[#D9D9D9]">
             <span className="font-[Ergisa] text-3xl xl:text-6xl capitalize">
               Sobre el proyecto
             </span>
 
-            <div className="flex flex-col gap-10 items-center xl:items-start justify-center text-justify xl:text-start xl:pl-48">
+            <div className="flex flex-col gap-10 items-center xl:items-start justify-center text-justify xl:text-start xl:pl-20">
               <p className="text-[16px] normal-case">
                 Mauris cursus mattis molestie a iaculis at erat pellentesque
                 adipiscing. Netus et malesuada fames ac turpis egestas integer
