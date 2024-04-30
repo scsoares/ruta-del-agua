@@ -1,27 +1,26 @@
 import { Link } from "react-router-dom";
 import { TfiClose } from "react-icons/tfi";
-import { useState } from "react";
 
-export const SidebarMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
+export const SidebarMenu = ({ isOpen, setIsOpen }) => {
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <>
-      {isOpen && <SidebarMenu />}
-      <div
-        id="navbar-overlay"
-        className="absolute animate-[reveal_0.3s_ease-in-out] bg-black/40 w-screen h-screen top-0 left-0 z-40 lg:hidden"
-      ></div>
+      {isOpen && (
+        <div
+          id="navbar-overlay"
+          className="absolute animate-[reveal_0.3s_ease-in-out] bg-black/40 w-screen h-screen top-0 left-0 z-40 lg:hidden"
+        ></div>
+      )}
       <div
         id="navbar-mobile"
-        className="absolute animate-[slide_0.5s_ease-in-out] w-4/6 h-screen bg-[#EDEDED] z-50 lg:hidden"
+        className={`absolute animate-[slide_0.5s_ease-in-out] w-4/6 h-screen bg-[#EDEDED] z-50 lg:hidden ${
+          isOpen ? "block" : "hidden"
+        }`}
       >
-        <div
-          onClick={() => {
-            setIsOpen(!isOpen);
-          }}
-          type="button"
-          className="ml-[220px] mt-[20px]"
-        >
+        <div onClick={closeMenu} className="ml-[220px] mt-[20px]" type="button">
           <TfiClose />
         </div>
         <div className="flex items-center justify-center my-28">

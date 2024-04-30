@@ -1,5 +1,6 @@
 import useIsVisible from "../services/useIsVisible.js";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 export const AboutProject = () => {
   const ref1 = useRef();
@@ -21,30 +22,49 @@ export const AboutProject = () => {
 
             <div className="flex flex-col gap-10 items-center xl:items-start justify-center text-justify xl:text-start xl:pl-20">
               <p className="text-[16px] normal-case">
-                Mauris cursus mattis molestie a iaculis at erat pellentesque
-                adipiscing. Netus et malesuada fames ac turpis egestas integer
-                eget. A diam maecenas sed enim ut sem viverra aliquet eget. Vel
-                fringilla est ullamcorper eget nulla facilisi etiam. Velit
-                egestas dui id ornare arcu odio ut. Felis donec et odio
-                pellentesque diam volutpat commodo sed egestas. Auctor eu augue
-                ut lectus arcu bibendum at varius. Rhoncus mattis rhoncus urna
-                neque viverra justo nec ultrices. <br />
-                <br />
-                Aenean euismod elementum nisi quis eleifend. Vitae purus
-                faucibus ornare suspendisse sed nisi lacus. Mattis enim ut
-                tellus elementum sagittis. Lectus quam id leo in vitae turpis.
-                <br />
-                <br />
-                Lobortis scelerisque fermentum dui faucibus in ornare quam.
-                Proin fermentum leo vel orci porta non pulvinar. Diam phasellus
-                vestibulum lorem sed risus ultricies. Quisque egestas diam in
-                arcu cursus. Morbi tincidunt ornare massa eget egestas.
-                Scelerisque eu ultrices vitae auctor eu.
+                El proyecto es una colaboración entre los centros educativos IES
+                El Rincón y CIFP San Cristóbal, ambos ubicados en Las Palmas de
+                Gran Canaria. La actividad se llevó a cabo el 26 de enero de
+                2024 en la ciudad de Telde, reuniendo a los estudiantes de
+                Desarrollo Web de El Rincón y a los estudiantes de Turismo de
+                San Cristóbal. Estos últimos desempeñaron el papel de guías
+                turísticos en la ruta, mientras que los estudiantes de
+                desarrollo actuaron como turistas. Esta cooperación resultó en
+                una oportunidad de socialización para estos alumnos, así como en
+                una oportunidad para poner en práctica sus estudios respectivos.
+                Mientras los estudiantes de Turismo fungieron como guías durante
+                la ruta, los de desarrollo se encargaron, a su vez, de crear las
+                páginas web destinadas al recorrido. <br />
+                {/* La jornada comenzó con una breve introducción a cargo de los
+                profesores coordinadores de ambos centros, quienes explicaron
+                los objetivos de la actividad y asignaron los roles
+                correspondientes a cada grupo de estudiantes. Los alumnos de
+                Turismo, previamente preparados con información detallada sobre
+                los lugares a visitar, guiaron a sus compañeros de Desarrollo
+                Web a lo largo de la ruta planificada. Durante el recorrido, se
+                fomentó el intercambio de conocimientos entre ambas disciplinas,
+                enriqueciendo la experiencia para todos los participantes. La
+                interacción entre los estudiantes fue destacada, ya que no solo
+                compartieron conocimientos específicos de sus áreas de estudio,
+                sino que también fortalecieron sus habilidades de comunicación y
+                trabajo en equipo. Además, la actividad permitió a los alumnos
+                de Desarrollo Web aplicar sus habilidades técnicas en un
+                contexto real, creando páginas web informativas y atractivas
+                para promover los sitios turísticos visitados durante la ruta.
+                Al finalizar la jornada, se realizó una sesión de
+                retroalimentación donde los estudiantes pudieron expresar sus
+                impresiones y sugerencias para futuras actividades
+                colaborativas. En general, el proyecto fue recibido con
+                entusiasmo por parte de los participantes y se destacó como una
+                experiencia enriquecedora tanto a nivel académico como personal. */}
               </p>
 
-              <button className="transition ease-in-out delay-400 hover:bg-[#181818] hover:text-[#EDEDED] text-[12px] xl:text-[16px] text-[#] max-w-40 xl:max-w-96 py-2 px-8 border border-[#181818] rounded-full">
+              <Link
+                to="/about-project"
+                className="transition ease-in-out delay-400 hover:bg-[#181818] hover:text-[#EDEDED] text-[12px] xl:text-[16px] text-[#] max-w-40 xl:max-w-96 py-2 px-8 border border-[#181818] rounded-full"
+              >
                 LEER MÁS
-              </button>
+              </Link>
             </div>
           </div>
         </div>
