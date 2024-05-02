@@ -22,9 +22,12 @@ export const Navbar = () => {
               ></img>
             </div>
 
-            <span className="hidden font-[Ergisa] lg:flex lg:text-base lg:ml-20 xl:flex xl:text-lg capitalize">
+            <Link
+              to="/"
+              className="hidden font-[Ergisa] lg:flex lg:text-base lg:ml-20 xl:flex xl:text-lg capitalize"
+            >
               Ruta Del Agua De Telde
-            </span>
+            </Link>
 
             <ul className="hidden gap-12 text-[16px] tracking-widest lg:gap-10 lg:flex lg:text-[12px] xl:text-[14px] xl:flex">
               <li className="hover:underline hover:underline-offset-8 hover:decoration-wavy">
