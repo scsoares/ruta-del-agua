@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import photos from "../services/photos/photos.js";
 import useIsVisible from "../services/useIsVisible.js";
+import { CommentBox } from "./CommentBox.jsx";
 
 export const AboutProjectFull = () => {
   const ref1 = useRef();
@@ -111,6 +112,7 @@ export const AboutProjectFull = () => {
           nivel académico como personal.
         </p>
       </div>
+      <CommentBox />
     </>
   );
 };
