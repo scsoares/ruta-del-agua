@@ -1,44 +1,44 @@
 let photos = [
     {
-        fileName: "../../../public/images/1.jpg"
+        fileName: "1.jpg"
     }, {
-        fileName: "../../../public/images/2.jpg"
+        fileName: "2.jpg"
     }, {
-        fileName: "../../../public/images/3.jpg"
+        fileName: "3.jpg"
     }, {
-        fileName: "../../../public/images/4.jpg"
+        fileName: "4.jpg"
     }, {
-        fileName: "../../../public/images/5.jpg"
+        fileName: "5.jpg"
     }, {
-        fileName: "../../../public/images/6.jpg"
+        fileName: "6.jpg"
     }, {
-        fileName: "../../../public/images/7.jpg"
+        fileName: "7.jpg"
     }, {
-        fileName: "../../../public/images/ruta.jpg"
+        fileName: "ruta.jpg"
     }, {
-        fileName: "../../../public/images/telde-historia.jpg"
+        fileName: "telde-historia.jpg"
     }, {
-        fileName: "../../../public/images/menu.png",
+        fileName: "menu.png",
     }, {
-        fileName: "../../../public/images/header-image.png"
+        fileName: "header-image.png"
     }, {
-        fileName: "../../../public/images/ayuntamiento-logo.png"
+        fileName: "ayuntamiento-logo.png"
     }, {
-        fileName: "../../../public/images/ayuntamiento-logo-negro.png"
+        fileName: "ayuntamiento-logo-negro.png"
     }, {
-        fileName: "../../../public/images/logo-ies-el-rincon.png"
+        fileName: "logo-ies-el-rincon.png"
     }, {
-        fileName: "../../../public/images/cifp.png"
+        fileName: "cifp.png"
     }, {
-        fileName: "../../../public/images/logo-ruta-del-agua.png"
+        fileName: "logo-ruta-del-agua.png"
     }, {
-        fileName: "../../../public/images/photos-bg.png" //17
+        fileName: "photos-bg.png" //17
     }, {
-        fileName: "../../../public/images/arrow.png" //18
+        fileName: "arrow.png" //18
     }, {
-        fileName: "../../../public/images/canal-agua.png" //19
+        fileName: "canal-agua.PNG" //19
     }, {
-        fileName: "../../../public/images/logo-ruta-del-agua-white.png" //20
+        fileName: "logo-ruta-del-agua-white.png" //20
     }
 ]
 

@@ -7,6 +7,11 @@ export const CommentBox = () => {
             Comentarios
           </span>
           <div className="h-[20vh]"></div>
+
+          <div className="flex flex-col items-center justify-center">
+            <span>Escribe tu comentario</span>
+            <div></div>
+          </div>
         </div>
       </section>
     </>
