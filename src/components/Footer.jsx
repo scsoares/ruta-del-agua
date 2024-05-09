@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -9,7 +10,7 @@ export const Footer = () => {
             <div className="flex flex-col items-center justify-center gap-5">
               <span className="font-[Ergisa] text-xl">GENERAL</span>
               <ul className="flex flex-col justify-center text-center gap-4 text-xs cursor-pointer">
-                <li>Sobre el proyecto</li>
+                <Link to="/about-project">Sobre el proyecto</Link>
                 <li>Fotos</li>
                 <li>Mapa y ubicación</li>
               </ul>

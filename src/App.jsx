@@ -4,10 +4,12 @@ import { AboutProject } from "./pages/AboutProject";
 import { AboutRoute } from "./pages/AboutRoute";
 import { RouteMap } from "./pages/RouteMap";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Modal } from "./components/Modal";
 
 function App() {
   return (
     <>
+      <Modal />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />

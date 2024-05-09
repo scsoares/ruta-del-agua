@@ -30,7 +30,7 @@ export const PhotosHome = () => {
             isVisible1 ? "opacity-100" : "opacity-0"
           }`}
         >
-          <div className="relative overflow-hidden flex flex-col items-center justify-between py-20 lg:justify-around xl:justify-evenly lg:py-72 lg:h-[800px] xl:py-72 h-[1400px] xl:h-[850px] w-screen bg-[url('../../public/images/photos-bg.png')] bg-cover">
+          <div className="relative overflow-hidden flex flex-col items-center justify-between py-20 lg:justify-around xl:justify-evenly lg:py-72 lg:h-[800px] xl:py-72 h-[1400px] xl:h-[850px] w-screen bg-[url('/images/photos-bg.png')] bg-cover">
             <span className="text-[#ededed] font-[Ergisa] capitalize text-3xl lg:text-[150px] xl:text-[210px] lg:mt-15">
               Fotos
             </span>

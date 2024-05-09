@@ -39,6 +39,10 @@ let photos = [
         fileName: "canal-agua.PNG" //19
     }, {
         fileName: "logo-ruta-del-agua-white.png" //20
+    }, {
+        fileName: "header-image-2.png" //21
+    }, {
+        fileName: "header-image-3.png" //21
     }
 ]
 

@@ -10,7 +10,7 @@ export const HeaderHome = () => {
     <>
       <SidebarMenu isOpen={isOpen} setIsOpen={setIsOpen} />
       <header>
-        <div className="relative flex flex-col bg-[#EDEDED] bg-[url('../../public/images/header-image-3.png')] bg-cover w-screen h-[650px] xl:h-[1000px]">
+        <div className="relative flex flex-col bg-[#EDEDED] bg-[url('/images/header-image-3.png')] bg-cover w-screen h-[650px] xl:h-[1000px]">
           <div
             id="navbar"
             className="flex justify-between lg:justify-around xl:justify-around items-center py-[20px] px-[20px] text-[#EDEDED]"

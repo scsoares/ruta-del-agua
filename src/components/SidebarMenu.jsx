@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { TfiClose } from "react-icons/tfi";
 
+// eslint-disable-next-line react/prop-types
 export const SidebarMenu = ({ isOpen, setIsOpen }) => {
   const closeMenu = () => {
     setIsOpen(false);
