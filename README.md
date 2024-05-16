@@ -4,6 +4,10 @@ Ruta del Agua de Telde (Telde's Water Route) is a hiking route located in Telde,
 
 https://ruta-del-agua-ec68e.web.app/
 
+# RSS
+
+![RSS feed](public/images/rss.PNG)
+
 ### Prerequisites:
 
 Google Chrome or any other browser installed and VSCode.
