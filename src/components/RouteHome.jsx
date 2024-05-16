@@ -2,6 +2,7 @@ import photos from "../services/photos/photos.js";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import useIsVisible from "../services/useIsVisible.js";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 export const RouteHome = () => {
   const ref1 = useRef();
@@ -36,9 +37,12 @@ export const RouteHome = () => {
                 src={`/images/${photos[8].fileName}`}
                 alt="Photo 1"
               />
-              <div className="absolute font-[Ergisa] top-[45%] left-[25%] text-3xl text-[#101010]">
+              <Link
+                to="/about-history"
+                className="absolute font-[Ergisa] top-[45%] left-[25%] text-3xl text-[#101010]"
+              >
                 HISTORIA
-              </div>
+              </Link>
             </div>
 
             <div
@@ -52,9 +56,12 @@ export const RouteHome = () => {
                 src={`/images/${photos[2].fileName}`}
                 alt="Photo 1"
               />
-              <div className="absolute font-[Ergisa] top-[45%] left-[15%] text-3xl text-[#181818]">
+              <Link
+                to="/about-nature"
+                className="absolute font-[Ergisa] top-[45%] left-[15%] text-3xl text-[#181818]"
+              >
                 NATURALEZA
-              </div>
+              </Link>
             </div>
 
             <div

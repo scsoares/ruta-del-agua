@@ -1,6 +1,7 @@
 import photos from "../services/photos/photos.js";
 import useIsVisible from "../services/useIsVisible.js";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 export const PhotosHome = () => {
   const ref1 = useRef();
@@ -110,9 +111,12 @@ export const PhotosHome = () => {
               </div>
             </div>
 
-            <button className="transition ease-in-out delay-400 hover:bg-[#ededed] hover:text-[#181818] text-[12px] xl:text-[16px] max-w-40 xl:max-w-96 py-2 px-8 border text-[#ededed] border-[#ededed] rounded-full">
+            <Link
+              to="photos"
+              className="transition ease-in-out delay-400 hover:bg-[#ededed] hover:text-[#181818] text-[12px] xl:text-[16px] max-w-40 xl:max-w-96 py-2 px-8 border text-[#ededed] border-[#ededed] rounded-full"
+            >
               VER MÁS
-            </button>
+            </Link>
           </div>
         </div>
       </section>

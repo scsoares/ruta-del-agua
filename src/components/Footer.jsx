@@ -1,5 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaRssSquare } from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -36,9 +37,15 @@ export const Footer = () => {
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
             <span className="capitalize">© 2024 Made by Sarah Soares. </span>
-            <a href="https://github.com/scsoares">
-              <FaGithub size={32} />
-            </a>
+            <div className="flex gap-5">
+              <a href="https://github.com/scsoares">
+                <FaGithub size={32} />
+              </a>
+
+              <a href="/rss.xml">
+                <FaRssSquare size={32} />
+              </a>
+            </div>
           </div>
         </div>
       </footer>

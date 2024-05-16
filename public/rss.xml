@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+    <channel>
+        <title>Sobre el proyecto Ruta del Agua</title>
+        <link>https://ruta-del-agua-ec68e.web.app/about-project</link>
+        <description>Información a respecto del proyecto Ruta del Agua de Telde</description>
+        <item>
+            <title>Ruta del Agua | Historia</title>
+            <link>https://ruta-del-agua-ec68e.web.app/about-history</link>
+            <description>Una breve historia de la Ruta Del Agua de Telde</description>
+        </item>
+        <item>
+            <title>Ruta del Agua | Naturaleza</title>
+            <link>https://ruta-del-agua-ec68e.web.app/about-nature</link>
+            <description>Una breve descripción de la naturaleza de la Ruta Del Agua de Telde</description>
+        </item>
+        <item>
+            <title>Ruta del Agua | Cultura</title>
+            <link>https://ruta-del-agua-ec68e.web.app/about-culture</link>
+            <description>Una breve descripción de la cultura de la Ruta Del Agua de Telde</description>
+        </item>
+    </channel>
+
+</rss>

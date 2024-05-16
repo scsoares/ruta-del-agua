@@ -37,7 +37,7 @@ export const Navbar = () => {
                 <Link to="/photos">Fotos</Link>
               </li>
               <li className="hover:underline hover:underline-offset-8 hover:decoration-wavy">
-                <Link to="/about-route">Historia</Link>
+                <Link to="/about-history">La Ruta</Link>
               </li>
             </ul>
 
